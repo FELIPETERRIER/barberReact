@@ -1,0 +1,63 @@
+.modo-claro{
+    background-color: #fff;
+    color: #000;
+}
+.modo-escuro {
+    background-color: #252323;
+    color: #fff;
+  }
+.topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+}
+.style-button{
+    height: 30px;
+    margin: 0px 5px;
+    
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    border-radius: 25px;   
+    padding: 10px 5px;
+   
+}
+.secao-banner{
+    background-image: url('../../public/assets/banner-barbearia.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.secao-um{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.first-p {
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.second-p{
+    margin: 0;
+    
+}
+.other-font{
+    font-family: 'Great Vibes';
+    font-size: 40px;
+    margin: 20px auto;
+    color: #B2987D;
+}
+
